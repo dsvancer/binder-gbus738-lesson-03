@@ -4,6 +4,10 @@ author: "David Svancer"
 
 ---
 
+```{r setup, include=FALSE}
+options(dplyr.summarise.inform = FALSE)
+```
+
 In this tutorial, we will learn about joining data with `dplyr`, pivoting data frame with `tidyr`, and data visualization with `ggplot2`. These three packages are the most widely used packages within the `tidyverse` for data analysis.
 
 
